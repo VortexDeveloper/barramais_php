@@ -1,0 +1,360 @@
+.gold_plugins_settings .plugin_is_registered {
+    background-color: white;
+    border-left: 4px solid green;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+    color: green;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+.gold_plugins_settings .plugin_is_not_registered {
+    background-color: white;
+    border-left: 6px solid orangered;
+    color: orangered;
+    font-weight: bold;
+    padding: 10px 15px;
+	margin: 10px auto;
+}
+.gold_plugins_settings .plugin_is_not_registered a {
+    color: #0074a2;
+    text-decoration: underline;
+}
+
+/* GP Widget styling (in admin) */
+.gp_admin_widget_fieldset {
+	border: 1px solid lightgray;
+    margin: 30px 0 40px;
+    padding: 10px 17px;
+}
+
+.gp_admin_widget_fieldset legend {
+    margin-left: -4px;
+    padding: 0 4px;
+}
+
+.gp_admin_widget_fieldset > p {
+    margin: 10px 3px;
+    
+}
+
+/* New Signup Style */
+.gold_plugins_settings {
+    position: relative;
+}
+
+.wrap.gold_plugins_settings {
+    padding-right: 0px;
+}
+
+@media only screen and (min-width: 1074px) {
+    .gold_plugins_settings.not_pro {
+        padding-right: 300px;
+    }
+}
+
+/* Small Blue Button Style */
+.gold_plugins_settings .smallBlueButton {
+    background: linear-gradient(to bottom, #79bbff 5%, #378de5 100%) repeat scroll 0 0 #79bbff;
+    border: 1px solid #337bc4;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px -2px #111, 0 2px 5px 0 rgba(255, 255, 255, 0.3) inset;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: arial;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px 24px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #528ecc;
+}
+.gold_plugins_settings .smallBlueButton:hover {
+    background: linear-gradient(to bottom, #378de5 5%, #79bbff 100%) repeat scroll 0 0 #378de5;
+}
+.gold_plugins_settings .smallBlueButton:active {
+    position: relative;
+    top: 1px;
+}
+/* End Blue Button Style */
+
+.post-type-banner #postimagediv .attachment-full {
+	max-width: 100%;
+	max-height: 400px;
+	height: auto;
+	width: auto;
+}
+.post-type-banner .wp-editor-container {
+	background-color:#fff;
+	margin-bottom: 20px;
+}
+.post-type-banner #wp-content-wrap #wp-content-editor-tools {
+	background-color:#fff;
+}
+
+.custom_banners_registered {
+    background-color: white;
+    border-left: 4px solid lightseagreen;
+    box-shadow: 1px 1px 1px lightgray;
+    font-weight: bold;
+	margin-bottom: 25px;
+    padding: 15px;
+    width: 860px;
+	margin: 25px 2px;
+}
+.custom_banners_not_registered {
+    background-color: white;
+    border-left: 4px solid red;
+    box-shadow: 1px 1px 1px lightgray;
+    font-weight: bold;
+	margin-bottom: 25px;
+    padding: 15px;
+    width: 860px;
+	margin: 25px 2px;
+}
+
+.custom_banners_not_registered h3 {
+	border-bottom: 1px solid lightgray;
+    color: darkcyan;
+    margin-top: 0;
+    padding-bottom: 12px;
+}
+div.custom_banners_not_registered {
+	box-sizing: border-box;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    width: 100%;
+}
+div.custom_banners_not_registered > p {
+	margin-left: 2px;
+}
+
+.gold_plugins_settings fieldset:not(.gp_fieldset_plain) {
+	border: 1px solid #ccc !important;
+	display: block;
+	margin: 20px 0 !important;
+	padding: 0 20px !important;
+}
+
+.gold_plugins_settings fieldset:not(.gp_fieldset_plain) legend {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+/* End New Signup Style */
+/* Theme Preview screen */
+#custom_banners_theme_preview {
+	max-width: 800px;
+	margin-top: 20px;
+	padding-top: 50px;
+    position: relative;
+}
+
+#custom_banners_theme_preview_title {
+	margin-top: 0;
+	margin-left: 4px;
+}
+
+#custom_banners_theme_preview_browser {
+	background-image: url('../img/browser-preview-middle.png');
+	height: 39px;
+	margin: 0 20px;
+	position: relative;
+}
+
+#custom_banners_theme_preview_browser::before {
+	background-image: url('../img/browser-preview-left.png');
+	background-position: top left;
+	background-repeat: no-repeat;
+	content: " ";
+	height: 39px;
+	position: absolute;
+	left: -20px;
+	top: 0;
+	width: 200px;
+}
+
+#custom_banners_theme_preview_browser::after {
+	background-image: url('../img/browser-preview-right.png');
+	background-position: top right;
+	background-repeat: no-repeat;
+	content: " ";
+	height: 39px;
+	position: absolute;
+	right: -20px;
+	top: 0;
+	width: 40px;
+}
+
+#custom_banners_theme_preview_content {
+	background-color: #fff;
+	border: 1px solid lightgray;
+    margin: 0 0 0 4px;
+    max-width: 800px;
+    padding: 50px 30px 30px;
+	max-width: 800px;
+}
+
+#custom_banners_theme_preview_color_picker {
+	position: absolute;
+    right: 0;
+    text-align: right;
+    top: -10px;
+	z-index: 100;
+}
+
+#custom_banners_theme_preview_color_picker .form-table {
+
+}
+
+#custom_banners_theme_preview_color_picker .form-table label {
+	font-size: 12px;
+}
+
+#custom_banners_theme_preview_color_picker .form-table th {
+	padding: 0;
+	vertical-align: middle;
+	text-align: right;
+}
+
+#custom_banners_theme_preview_color_picker .form-table tr {
+	padding: 0;
+}
+
+#custom_banners_theme_preview_color_picker .form-table td {
+	padding: 0;
+}
+
+
+#custom_banners_theme_preview_color_picker label {
+	display: inline-block;
+}
+
+#custom_banners_theme_preview_color_picker .bikeshed.bikeshed_color {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#custom_banners_themes_pro_warning {
+    background: white none repeat scroll 0 0;
+    border-left: 3px solid orangered;
+    border-radius: 2px;
+    box-shadow: -2px 2px 2px #ccc;
+    font-weight: bold;
+    margin: 20px 0;
+    max-width: 760px;
+    padding: 3px 20px;
+}
+
+#custom_banners_themes_pro_warning h3 {
+	font-size: 18px;
+	color: green;
+	margin-top: 18px;
+}
+
+/* keep thumbnail column from being huge */
+.manage-column.column-cbp_banner_preview {
+    max-width: 105px !important;
+    overflow: hidden;
+    width: 105px !important;
+}
+/* hide media buttons on captions */
+.wp-admin.post-type-banner .wp-media-buttons {
+    display: none;
+}
+
+/* global widget styles */ 
+.gp_widget_form_wrapper fieldset.radio_text_input{border:1px solid #d3d3d3;margin:10px 3px 20px;padding:10px}.gp_widget_form_wrapper fieldset.radio_text_input .bikeshed_radio{margin-top:-15px}.gp_widget_form_wrapper fieldset.radio_text_input .bikeshed_radio p{margin-top:0}.gp_widget_form_wrapper fieldset.radio_text_input .bikeshed_radio .radio_option label{display:inline-block;width:auto}.gp_widget_form_wrapper fieldset.radio_text_input .bikeshed_radio .radio_option input[type=text]{display:inline-block;margin:0 2px 0 4px;position:relative;text-align:right;top:2px;width:50px}.gp_widget_form_wrapper fieldset.radio_text_input .bikeshed_radio .radio_option.px_label::after{content:" px";position:relative;top:2px}.gp_widget_form_wrapper select{width:99%}.gp_widget_form_wrapper select.multi_left{width:37%;margin-right:2%;float:left}.gp_widget_form_wrapper select.multi_right{width:59%}.customize-control .gp_widget_form_wrapper select.multi_left,.customize-control .gp_widget_form_wrapper select.multi_right{min-width:35%}.gp_widget_form_wrapper .description.after_checkbox{margin-top:-7px!important;padding-left:24px!important}
+
+
+
+/* New Admin Styles */
+.easy_testimonials_admin_wrap tr {
+    display: block;
+}
+
+.gold_plugins_settings .form-table th {
+	display: block;
+    padding: 20px 10px 0 0;
+    width: 100%;
+}
+
+.gold_plugins_settings .form-table td {
+    display: block;
+	padding: 15px 0;
+}
+
+.gold_plugins_settings #message {
+    margin: 20px 0;
+}
+
+.gold_plugins_settings .import_response {
+    height: auto;
+}
+.gold_plugins_settings h4 {
+    font-size: 15px;
+    margin: 5px 0;
+}
+
+.custom_banners_support_button {
+    border: 1px solid #999;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 5px 0 0;
+    padding: 10px;
+    text-decoration: none;
+}
+/* GP Support Form CSS */
+.gp_support_form_wrapper label {
+    display: block;
+    font-weight: bold;
+    margin: 10px 0 2px;
+}
+.gp_support_form_wrapper .form_field {
+    margin: 10px 0;
+}
+.gp_support_form_wrapper {
+    margin: 20px 0;
+}
+.help_box {
+    margin: 25px 0;
+}
+.help_box > p {
+    margin: 0 0 1em;
+}
+.gold_plugins_settings .button {
+    white-space: normal;
+}
+.gold_plugins_settings .label_text {
+    display: block;
+    margin-left: 26px;
+}
+div.gp_updated {
+    background: #fff none repeat scroll 0 0;
+    border-left: 4px solid green;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+    margin: 20px 0px 10px 0;
+    padding: 1px 12px;
+}
+div.gp_error {
+    background: #fff none repeat scroll 0 0;
+    border-left: 4px solid red;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+    margin: 20px 0px 10px 0;
+    padding: 1px 12px;
+}
+
+#wpbody-content > .gp_updated,
+#wpbody-content > .gp_error {
+    margin-right: 10px;
+}
+
+.ajax_response_message {
+    color: forestgreen;
+    font-size: 14px;
+    font-style: italic;
+}
+
+/* Sajak Changes */
+.gp_sajak td > label {
+    font-weight: 600;
+}
